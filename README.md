@@ -1,4 +1,4 @@
-# Example Home Assistant app repository
+#  Home Assistant App Repository
 
 This repository can be used as a "blueprint" for app development to help you get started.
 
@@ -11,11 +11,13 @@ Apps documentation: <https://developers.home-assistant.io/docs/apps>
 This repository contains the following apps
 
 ### [Example app](./example)
+### [GiraOne MQTT Bridge](./giraone-mqtt-bridge)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 
-_Example app to use as a blueprint for new apps._
+
+https://github.com/marketplace/actions/patch-files
 
 <!--
 

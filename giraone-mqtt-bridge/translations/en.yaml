@@ -1,0 +1,4 @@
+configuration:
+  message:
+    name: Starting GiraOneMqttBridge
+    description: The message that will be printed to the log when starting this example app.
