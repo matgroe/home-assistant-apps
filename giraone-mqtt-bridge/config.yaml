@@ -1,5 +1,5 @@
 name: GiraOne MQTT Bridge
-version: 102.2.1
+version: ''
 slug: giraone_mqtt_bridge
 description: Bridge betwween GiraOne Home Server and MQTT
 url: https://github.com/home-assistant/apps-example/tree/main/example
@@ -12,4 +12,4 @@ options:
   message: Hello world...
 schema:
   message: str?
-image: theimga
+image: ''
