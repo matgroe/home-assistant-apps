@@ -1,5 +1,5 @@
 name: GiraOne MQTT Bridge
-version: 0.0.5
+version: 0.0.5-dev
 slug: giraone_mqtt_bridge
 description: Bridge betwween GiraOne Home Server and MQTT
 url: https://github.com/home-assistant/apps-example/tree/main/example
@@ -9,19 +9,16 @@ startup:
   application:
     services:
       - mqtt:need
-
 init: false
 map:
   - share:rw
 options:
-  g1server:
-  g1username:
-  g1password:
-
+  g1server: null
+  g1username: null
+  g1password: null
 schema:
   g1server: str?
   g1username: str?
   g1password: password
   loglevel: list(trace|debug|info|warning|error)
-
 image: matgroe/hassio-giraone-mqtt-bridge
