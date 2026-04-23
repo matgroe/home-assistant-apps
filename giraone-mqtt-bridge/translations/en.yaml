@@ -1,4 +1,20 @@
 configuration:
-  message:
-    name: Starting GiraOneMqttBridge
-    description: The message that will be printed to the log when starting this example app.
+  g1server:
+    name: GiraOneServer
+    description: Hostname or IP address of the Gira One Server
+    default: localhost
+    required: true
+  g1username:
+    name: Username
+    description: Username for authentication with the Gira One Server
+    default: User
+    required: true
+  g1passwd:
+    name: Password
+    description: Password for authentication with the Gira One Server
+    default:
+    required: true
+  loglevel:
+    name: Log Level
+    description: Logging level for the application
+    default: info

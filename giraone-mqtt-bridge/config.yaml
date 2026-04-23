@@ -5,11 +5,23 @@ description: Bridge betwween GiraOne Home Server and MQTT
 url: https://github.com/home-assistant/apps-example/tree/main/example
 arch:
   - amd64
+startup:
+  application:
+    services:
+      - mqtt:need
+
 init: false
 map:
   - share:rw
 options:
-  message: Hello world...
+  g1server:
+  g1username:
+  g1password:
+
 schema:
-  message: str?
+  g1server: str?
+  g1username: str?
+  g1password: password
+  loglevel: list(trace|debug|info|warning|error)
+
 image: matgroe/hassio-giraone-mqtt-bridge
