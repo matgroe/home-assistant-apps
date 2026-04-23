@@ -12,4 +12,4 @@ options:
   message: Hello world...
 schema:
   message: str?
-image: matgroe/hassio-giraone-mqtt-bridge:0.0.5
+image: matgroe/hassio-giraone-mqtt-bridge
