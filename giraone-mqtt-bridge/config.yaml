@@ -1,5 +1,5 @@
 name: GiraOne MQTT Bridge
-version: 0.0.28-dev
+version: 0.0.29-dev
 slug: giraone_mqtt_bridge
 description: Bridge betwween GiraOne Home Server and MQTT
 url: https://github.com/home-assistant/apps-example/tree/main/example
