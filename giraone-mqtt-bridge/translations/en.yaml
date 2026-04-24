@@ -1,20 +1,39 @@
 configuration:
-  g1server:
+  GIRA_SERVER:
     name: GiraOneServer
     description: Hostname or IP address of the Gira One Server
     default: localhost
     required: true
-  g1username:
+  GIRA_USER:
     name: Username
     description: Username for authentication with the Gira One Server
     default: User
     required: true
-  g1passwd:
+  GIRA_PASSWORD:
     name: Password
     description: Password for authentication with the Gira One Server
     default:
     required: true
-  loglevel:
+  LOG_LEVEL:
     name: Log Level
     description: Logging level for the application
     default: info
+  MQTT_USE_INTERNAL_BROKER:
+    name: Use Internal MQTT Broker
+    description:
+  MQTT_BROKER:
+    name: MQTT Broker
+    description: Hostname or IP address of MQTT Broker
+    default: localhost
+  MQTT_PORT:
+    name: Portnumber
+    description: MQTT Broker Port
+    default: 1883
+  MQTT_USER:
+    name: Username
+    description: Username for authentication
+    default: User
+  MQTT_PASSWORD:
+    name: Password
+    description: Password for authentication
+    default:
