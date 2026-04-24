@@ -19,7 +19,7 @@ options:
   GIRA_PASSWORD:
   MQTT_USE_INTERNAL_BROKER: true
   MQTT_BROKER:
-  MQTT_PORT:
+  MQTT_PORT: 1883
   MQTT_USER:
   MQTT_PASSWORD:
   LOG_LEVEL: info
@@ -28,11 +28,11 @@ schema:
   GIRA_SERVER: str
   GIRA_USER: str
   GIRA_PASSWORD: password
-  LOG_LEVEL: list(trace|debug|info|warning|error)
   MQTT_USE_INTERNAL_BROKER: bool
   MQTT_BROKER: str
   MQTT_PORT: int
   MQTT_USER: str
   MQTT_PASSWORD: password
+  LOG_LEVEL: list(trace|debug|info|warning|error)
 
 image: matgroe/hassio-giraone-mqtt-bridge
