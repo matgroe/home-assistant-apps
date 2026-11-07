@@ -1,5 +1,5 @@
 name: GiraOne MQTT Bridge
-version: 0.9.1
+version: 0.9.2
 slug: giraone_mqtt_bridge
 description: Implements a Bridge between GiraOne Home Server and Homa Assistant via MQTT-Broker
 url: https://github.com/matgroe/giraone-mqtt-bridge
